@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center"
+        android:text="Login"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:text="Lorem ipsum Lorem ipsumLorem ipsumL"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:hint="Email"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:text="Get Start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColorLink="#00BCD4"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="418dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
